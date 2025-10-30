@@ -1,0 +1,6 @@
+__pycache__/
+   *.pyc
+   game_log/
+   .vscode/
+   .idea/
+   .DS_Store
