@@ -100,7 +100,9 @@ def play_game(wordlist, game_number, stats):
     # Game loop
     while not is_game_over(game_state):
         user_input = input("\nEnter a letter (or type 'guess' to guess full word, 'quit' to exit): ").strip().lower()
-        
+        if not user_input:
+            print("[!] Please enter something!")
+            continue
         if user_input == 'quit':
             print("Thanks for playing!")
             return False
