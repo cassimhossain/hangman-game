@@ -1,19 +1,19 @@
-# Byte-compiled files
+# Ignore Python cache and compiled files
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Logs
-*.log
-game_log/*
-!game_log/statistics.json
-
-# Virtual environments
+# Ignore virtual environments
 venv/
 .env/
 .venv/
+env/
 
-# OS and editor junk
+# Ignore OS / IDE files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
+# Keep game logs and stats
+# (We don't ignore the game_log folder)
