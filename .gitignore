@@ -1,4 +1,23 @@
-__pycache__/ 
-*.pyc 
-.env 
-.vscode/ 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Logs and local data
+*.log
+game_log/*
+!game_log/statistics.json  # Keep the statistics file, ignore other logs
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
